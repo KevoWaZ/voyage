@@ -641,7 +641,7 @@ nav ul li:nth-child(7) {
         font-size: 32.008px;
         margin-bottom: 20px;
     }
-    
+
     .destinations .right {
         width: auto;
     }
@@ -653,7 +653,7 @@ nav ul li:nth-child(7) {
     .destinations .right p {
         font-size: 16px;
     }
-    
+
     .gallery {
         margin: 0px 0px 100px 0px;
     }
@@ -666,7 +666,7 @@ nav ul li:nth-child(7) {
     }
 }
 
-
+/*----------------BLOG-------------*/
 
 .blog {
     width: 100%;
@@ -681,6 +681,7 @@ nav ul li:nth-child(7) {
     width: 1425px;
     height: 500px;
     display: flex;
+    justify-content: center;
     gap: 25px;
 }
 
@@ -813,6 +814,106 @@ nav ul li:nth-child(7) {
     font-size: 19.008px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1459px) {
+    .blogCard {
+        width: 0;
+    }
+
+    .blogCard .left {
+        width: 500px;
+        height: 400px;
+    }
+
+    .blogCard .right {
+        width: 500px;
+        height: 400px;
+    }
+
+    .right-left {
+        width: auto;
+    }
+
+    .right-right {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    .blogCard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .explore {
+        margin: 25px;
+    }
+
+    .explore .eContent {
+        padding: 20px;
+    }
+
+    .explore .eContent h2 {
+        font-size: 20px;
+    }
+
+    .explore .eContent button {
+        padding: 10px 35px;
+    }
+}
+
+
+@media screen and (max-width: 525px) {
+
+    .blogCard .left {
+        width: 310px;
+        height: 250px;
+    }
+
+    .explore .eContent {
+        padding: 8px;
+    }
+
+    .explore .eContent h2 {
+        font-size: 18px;
+    }
+
+    .explore .eContent button {
+        padding: 6px 34px;
+    }
+
+    .blogCard .right {
+        width: 310px;
+        height: 250px;
+    }
+
+    .twoBox .txtTwo {
+        margin: 5px;
+    }
+
+    .twoBox .txtTwo h2 {
+        font-size: 21.008px;
+    }
+
+    .twoBox .txtTwo p {
+        font-size: 14px;
+    }
+
+    .txt-right-right {
+        margin: 5px;
+    }
+
+    .txt-right-right h2 {
+        font-size: 21px;
+    }
+
+    .txt-right-right p {
+        font-size: 14px;
+    }
+
 }
 
 
