@@ -87,7 +87,8 @@ nav ul li:nth-child(7) {
 .humberger {
     top: 20px;
     right: 10px;
-    position: relative;
+    position: absolute;
+    z-index: 30;
 }
 
 .humberger span {
@@ -916,7 +917,7 @@ nav ul li:nth-child(7) {
 
 }
 
-
+/*-------------CHOOSEUS----------------*/
 
 .chooseUs {
     width: 100%;
@@ -933,6 +934,8 @@ nav ul li:nth-child(7) {
 
 .cContainer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cCard {
@@ -986,6 +989,47 @@ nav ul li:nth-child(7) {
 .cTxt p {
     font-size: 18px;
 }
+
+@media screen and (max-width: 1219px) {
+    .cCard2 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .cCard1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    .chooseUs {
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    .cCard1 {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .chooseUs {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chooseUs h1 {
+        font-size: 37.008px;
+        text-align: center;
+    }
+    
+    .cCard {
+        width: 310px;
+    }
+}
+
 
 .aboutUs {
     width: 100%;
