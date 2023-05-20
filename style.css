@@ -560,6 +560,11 @@ nav ul li:nth-child(7) {
     display: flex;
     justify-content: space-between;
     margin: 200px 100px 100px;
+    opacity: 0;
+    transition: 1s;
+}
+.top.show {
+    opacity: 1;
 }
 
 .destinations .left h1 {
@@ -597,6 +602,11 @@ nav ul li:nth-child(7) {
     flex-wrap: wrap;
     margin: 0px 100px;
     margin-bottom: 100px;
+    opacity: 0;
+    transition: 1s;
+}
+.gallery.show {
+    opacity: 1;
 }
 
 .card {
@@ -714,6 +724,11 @@ nav ul li:nth-child(7) {
     display: flex;
     justify-content: center;
     gap: 25px;
+    opacity: 0;
+    transition: 1s;
+}
+.blogCard.show {
+    opacity: 1;
 }
 
 .blogCard .left {
@@ -966,6 +981,11 @@ nav ul li:nth-child(7) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    opacity: 0;
+    transition: 1s;
+}
+.cContainer.show {
+    opacity: 1;
 }
 
 .cCard {
