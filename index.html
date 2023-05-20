@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"></script>
 </head>
@@ -138,10 +140,10 @@
     <section class="destinations">
 
         <div class="top">
-            <div class="left">
+            <div class="left" data-aos="fade-up"> 
                 <h1>Popular <span>Destination</span></h1>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-up"> 
                 <h4>1000+ Destinations</h4>
                 <p>We want you to spend more time on your trip and less time worrying about outdoor gears, apparels.</p>
                 <p>See All</p>
@@ -149,7 +151,7 @@
         </div>
 
         <div class="gallery">
-            <div class="card card1">
+            <div class="card card1" data-aos="fade-up">
                 <div class="images images1">
 
                 </div>
@@ -159,7 +161,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card2">
+            <div class="card card2" data-aos="fade-up">
                 <div class="images images2">
 
                 </div>
@@ -169,7 +171,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card3">
+            <div class="card card3" data-aos="fade-up">
                 <div class="images images3">
 
                 </div>
@@ -179,7 +181,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card4">
+            <div class="card card4" data-aos="fade-up">
                 <div class="images images4">
 
                 </div>
@@ -189,7 +191,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card5">
+            <div class="card card5" data-aos="fade-up">
                 <div class="images images5">
 
                 </div>
@@ -199,7 +201,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card6">
+            <div class="card card6" data-aos="fade-up">
                 <div class="images images6">
 
                 </div>
@@ -209,7 +211,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card7">
+            <div class="card card7" data-aos="fade-up">
                 <div class="images images7">
 
                 </div>
@@ -219,7 +221,7 @@
                     <p>24$/Person</p>
                 </div>
             </div>
-            <div class="card card8">
+            <div class="card card8" data-aos="fade-up">
                 <div class="images images8">
 
                 </div>
@@ -236,7 +238,7 @@
 
     <section class="blog">
         <div class="blogCard">
-            <div class="left">
+            <div class="left" data-aos="fade-up">
                 <div class="explore">
                     <div class="eContent">
                         <h2>Explore the world with us</h2>
@@ -244,7 +246,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-up">
                 <div class="right-left">
                     <div class="twoBox twoBox1">
                         <div class="txtTwo">
@@ -275,19 +277,19 @@
     <section class="chooseUs">
         <h1>Why must Choose Us</h1>
         <div class="cContainer">
-            <div class="cCard cCard1">
+            <div class="cCard cCard1" data-aos="slide-up">
                 <div class="cTxt">
                     <h3>Best Guide, Best Experience</h3>
                     <p>More Details</p>
                 </div>
             </div>
-            <div class="cCard cCard2">
+            <div class="cCard cCard2" data-aos="slide-up">
                 <div class="cTxt">
                     <h3>Always Have Special Tickets</h3>
                     <p>More Details</p>
                 </div>
             </div>
-            <div class="cCard cCard3">
+            <div class="cCard cCard3" data-aos="slide-up">
                 <div class="cTxt">
                     <h3>Always Ready to suppoer 24/7</h3>
                     <p>More Details</p>
@@ -376,8 +378,10 @@
         </div>
     </footer>
 -->
-   
-    <script src="anim.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
     <script src="app.js"></script>
 </body>
 

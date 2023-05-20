@@ -560,12 +560,8 @@ nav ul li:nth-child(7) {
     display: flex;
     justify-content: space-between;
     margin: 200px 100px 100px;
-    opacity: 0;
-    transition: 1s;
 }
-.top.show {
-    opacity: 1;
-}
+
 
 .destinations .left h1 {
     font-size: 45.008px;
@@ -602,12 +598,10 @@ nav ul li:nth-child(7) {
     flex-wrap: wrap;
     margin: 0px 100px;
     margin-bottom: 100px;
-    opacity: 0;
-    transition: 1s;
 }
-.gallery.show {
-    opacity: 1;
-}
+
+
+
 
 .card {
     display: flex;
@@ -618,6 +612,7 @@ nav ul li:nth-child(7) {
     height: 400px;
     background-color: #fff;
     box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.33);
+    overflow-x: hidden;
 }
 
 .card .images {
@@ -724,12 +719,8 @@ nav ul li:nth-child(7) {
     display: flex;
     justify-content: center;
     gap: 25px;
-    opacity: 0;
-    transition: 1s;
 }
-.blogCard.show {
-    opacity: 1;
-}
+
 
 .blogCard .left {
     width: 700px;
@@ -981,12 +972,8 @@ nav ul li:nth-child(7) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    opacity: 0;
-    transition: 1s;
 }
-.cContainer.show {
-    opacity: 1;
-}
+
 
 .cCard {
     width: 390px;
